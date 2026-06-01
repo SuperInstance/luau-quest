@@ -246,7 +246,8 @@ function QuestTracker:getStatus(questId: string): {state: string, progress: (num
     local done, total = quest:progress()
     return {
         state = quest.state,
-        progress = (done, total),
+        completed = done,
+        total = total,
         rewards = quest.rewards,
     }
 end
