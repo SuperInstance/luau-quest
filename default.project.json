@@ -1,0 +1,11 @@
+{
+  "name": "luau-quest",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "luau-quest": {
+        "$path": "src"
+      }
+    }
+  }
+}
